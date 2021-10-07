@@ -1,6 +1,7 @@
 import { createGlobalStyle, css } from "styled-components";
 
 const styles = css`
+<<<<<<< HEAD
   * {
     margin: 0px;
     padding: 0px;
@@ -88,6 +89,94 @@ const styles = css`
   .MuiInputBase-root > .MuiInputBase-input {
     font-family: "Public Sans", sans-serif;
   }
+=======
+	* {
+		margin: 0px;
+		padding: 0px;
+		scroll-behavior: smooth;
+		transition: all 0.2s linear;
+		text-decoration: none;
+		outline: none;
+		font-family: "Public Sans", sans-serif;
+	}
+
+	img {
+		user-select: none;
+		-ms-user-select: none;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+	}
+	::-webkit-scrollbar {
+		width: 2px;
+		background: #e1e9f8;
+	}
+	::-webkit-scrollbar-thumb {
+		background-color: #2fc0fa;
+	}
+
+	input:-webkit-autofill,
+	input:-webkit-autofill:hover,
+	input:-webkit-autofill:focus,
+	input:-webkit-autofill:active {
+		-webkit-transition-delay: 9999s;
+		transition-delay: 9999s;
+	}
+
+	body {
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+		height: 100%;
+		transition: all 0.3s ease-in-out;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.PhoneInputCountryIconImg,
+	.PhoneInputCountrySelectArrow {
+		color: white;
+	}
+
+	* > a {
+		text-decoration: none;
+		color: inherit;
+	}
+	p,
+	br,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	strong,
+	em,
+	q,
+	hr,
+	code,
+	pre,
+	ul,
+	li,
+	ol,
+	dl,
+	dt,
+	dd,
+	mark,
+	ins,
+	del,
+	sup,
+	small,
+	i,
+	sub,
+	b,
+	label,
+	legend,
+	span > a,
+	input,
+	.MuiInputBase-root > .MuiInputBase-input {
+		font-family: "Public Sans", sans-serif;
+	}
+>>>>>>> 64e13644ec416bb806c759a495f873ccc0286604
 `;
 
 export const GlobalStyles = createGlobalStyle`

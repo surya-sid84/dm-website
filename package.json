@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@emotion/react": "^11.4.1",
+<<<<<<< HEAD
     "@emotion/styled": "^11.3.0",
+=======
+>>>>>>> 64e13644ec416bb806c759a495f873ccc0286604
     "@lottiefiles/lottie-player": "^1.4.1",
     "@mui/icons-material": "^5.0.1",
     "@mui/material": "^5.0.2",
@@ -20,7 +23,10 @@
     "styled-components": "^5.3.1"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "babel-plugin-styled-components": "^1.13.2",
+=======
+>>>>>>> 64e13644ec416bb806c759a495f873ccc0286604
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2"
   }
